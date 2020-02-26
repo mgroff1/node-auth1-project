@@ -29,10 +29,10 @@ const RegisterForm = props => {
 
     return (
         <div className='registerForm'>
-            <h2>Register a New User</h2>
+            <h2>A New You</h2>
             <Form onSubmit={register}>
                 <FormGroup>
-                    <Label for="username">Username</Label>
+                    <Label for="username">New Identity</Label>
                     <Input
                      required
                      type="text"
@@ -55,7 +55,7 @@ const RegisterForm = props => {
                      onChange={handleChange}
                      />
                 </FormGroup>
-                <Button color='info'>Register</Button>
+                <Button color='info'>Dont Push</Button>
             </Form>
         </div>
     )
