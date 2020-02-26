@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Node Auth-Users Project</h1>
+        <h1>Chance at a new life!</h1>
         <Route exact path='/' component={RegisterForm} />
         <Route exact path='/login' component={LoginForm} />
         <Route exact path='/users' component={Users} />

@@ -1,3 +1,7 @@
+*{
+  text-shadow:1px 2px 1px white, -1px 2px 1px white;
+}
+
 html, body {
   box-sizing: border-box;
 }
@@ -18,4 +22,8 @@ html, body {
   border-radius: 5px;
   padding: 2% 3%;
   margin-top: 4%;
+}
+
+body{
+  background:rgba(55,55,55,1);
 }
